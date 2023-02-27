@@ -67,7 +67,7 @@ height: 155px;
     height:600px;
     background-color: #191826;
     border-radius:12px;
-    /* position: relative; */
+    position: relative;
     
 }
 
@@ -86,18 +86,13 @@ height: 155px;
 }
 
 .orange-div{
-
-    padding-left:36px;
-    background-color:  #FA7453;
-    height:546px;
-    width: 340px;
-    position: absolute;
-    border-radius: 12px;
-    bottom:300px;
-    
-    
-    
-    
+padding-left:36px;
+background-color:  #FA7453;
+height:546px;
+width: 340px;
+border-radius: 12px;
+top:380px;
+position:absolute;
 }
 .premium-EQ{
     padding-top:48px;
@@ -122,23 +117,23 @@ height: 155px;
 
 
 }
-.span-div{
 
-
-}
 .dollar{
-    padding-top:36px;
+    
     font-family: 'IBM Plex Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 65px;
     line-height: 52px;
     color:#FCFAF9;
+    margin-top:45px;
+    display: flex;
+    align-items:center;
 
 }
 
-.Month{
-    padding-top:45px;
+.dollar span {
+    
     font-family: 'IBM Plex Sans';
     font-style: normal;
     font-weight: 400;
@@ -158,49 +153,65 @@ height: 155px;
     height: 61px;
     border-radius: 12px; 
     position: relative;   
+    padding-top:32px;
+    gap:16px;
 }
 
 .ios-button{
-    border-radius: 12px;  
-    width: 296px;
-    height: 61px;
+    border-radius: 12px;
     background: #191826;
     font-family: 'IBM Plex Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 32px;
-color:#FCFAF9;
-position: relative;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color:#FCFAF9;
+    /* cursor: pointer; */
+    width: 296px;
+    padding: 15px;
 }
 
 .android-button{
-    border-radius: 12px;  
-    width: 296px;
-    height: 61px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* cursor: pointer; */
     background: #FCFAF9;
-
-
+    color:#191826;
+    padding:15px;
+    border-radius: 15px;
 }
 
-.apple-img{
-    width:17.08px;
-    height:15.32px;
-    top:10.68px;
-    position:absolute;
-    
-    
+/* .ios-button:hover{
+    background-color:#66E2DC; 
+}
 
+.android-button:hover{
+    background-color: #FFB964;
+} */
+
+.footer-div{
+    background-color: #F2F2F2;
+    margin-top:397px;
+    padding-left:24px;
 }
 
 
-.android-image{
-    width: 10px;
-    height: 15px;
-    
-
+.bold-text{
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color:#191826;
+width: 327px;
+height: 105px;
+padding-top:32px;
 }
-.first-button-div{
-
-    
+.icons-div{
+    padding-top:64px;
+    gap:20px;
+    display: flex;
 }
