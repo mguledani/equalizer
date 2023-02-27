@@ -4,24 +4,26 @@
     padding: 0;
     font-family: 'IBM Plex Sans';
     text-decoration: none;
+
 }
 
 body {
     width:100%;
     height: auto;
-    overflow-x: hidden;
+    overflow-x:  hidden;
     background-color: #F2F2F2;
     background-image:url(./assets/bg-main-mobile.png);
     background-repeat: no-repeat;
     background-position: Top -200px right -250px;
-    position: absolute;
+    
+    
 }
 
 
 .logo-header{
    padding-left: 6.4%;
    padding-top:40px;
-    
+   
      
     
      
@@ -31,6 +33,7 @@ body {
     justify-content: flex-start;
     margin-top:64px;
     padding-left:6.4%;
+    
    
     
 }
@@ -45,6 +48,7 @@ letter-spacing: -0.454545px;
 color: #191826;
 width: 327px;
 height: 155px;
+
 }
 .system-audio{
  font-family: 'IBM Plex Sans';
@@ -57,6 +61,7 @@ height: 155px;
  height:156px;
  margin-top:20px;
 }
+ 
 .first-section{
     
     background-image: url(./assets/bg-pattern-2.svg);
@@ -68,6 +73,8 @@ height: 155px;
     background-color: #191826;
     border-radius:12px;
     position: relative;
+    
+    
     
 }
 
@@ -93,6 +100,8 @@ width: 340px;
 border-radius: 12px;
 top:380px;
 position:absolute;
+
+/* margin:auto; */
 }
 .premium-EQ{
     padding-top:48px;
