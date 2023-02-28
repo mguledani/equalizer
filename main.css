@@ -4,31 +4,34 @@
     padding: 0;
     font-family: 'IBM Plex Sans';
     text-decoration: none;
+    box-sizing:border-box;
+    outline:solid red;
 
 }
 
 body {
-    width:100%;
-    height: auto;
-    overflow-x:  hidden;
-    background-color: #F2F2F2;
-    background-image:url(./assets/bg-main-mobile.png);
-    background-repeat: no-repeat;
-    background-position: Top -200px right -200px;
+   
+/* overflow-x:  hidden; */
+   
+background-color: #F2F2F2;
+   
+background-image:url(./assets/bg-main-mobile.png);
+   
+background-repeat: no-repeat;
+   
+background-position: Top -200px right -200px;
 }
 
 
 .logo-header{
    padding-left: 6.4%;
    padding-top:40px;
-   
-     
-    
-     
+   width: 100%;
+   box-sizing: border-box;
 } 
  .main-info-box{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
     margin-top:64px;
     padding-left:6.4%;
     
@@ -166,6 +169,7 @@ height: 155px;
     /* cursor: pointer; */
     width: 296px;
     padding: 15px;
+    height: 61px;
 }
 
 .android-button{
@@ -179,6 +183,7 @@ height: 155px;
     color:#191826;
     padding:15px;
     border-radius: 15px;
+    height: 61px;
 }
 
 /* .ios-button:hover{
@@ -193,6 +198,7 @@ height: 155px;
     background-color: #F2F2F2;
     margin-top:397px;
     padding-left:24px;
+    box-sizing: border-box;
 }
 
 
@@ -228,22 +234,21 @@ padding-top:32px;
 }
 
 .extraordinary-sound{
-    font-size: 64px;
+    font-size: 40px;
     line-height: 64px;
-    width: 520px;
+    width: 327px;
     height: 192px;
-
-
-
 }
 
 .system-audio{
 
 font-size: 18px;
-line-height: 28px;
-width:514px;
-height:112px;
 
+line-height: 28px;
+
+width: 327px;
+
+height: 156px;
 }
 .equalizer-div{
     margin-top: 111px;
@@ -254,18 +259,13 @@ height:112px;
 .first-section{
     
 background-position: top 1px right 1px;
-    
 background-image: url(./assets/bg-pattern-2.svg);
-    
 background-repeat: no-repeat;
-    
 background-position: top 0 left 45%;
-    
 width: 696px;
-    
 height:600px;
-    
-position: relative;
+position: relative; 
+margin: 249px auto 183px;
 
     
 
@@ -285,9 +285,16 @@ width: 399px;
 
 height:546px;
 
-position: relative;
+position: absolute;
 
+top: 150px;
 
+right: 58px;
+}
+
+.button-div {
+
+        justify-self: center;
 }
 
 
