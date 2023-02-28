@@ -14,9 +14,7 @@ body {
     background-color: #F2F2F2;
     background-image:url(./assets/bg-main-mobile.png);
     background-repeat: no-repeat;
-    background-position: Top -200px right -250px;
-    
-    
+    background-position: Top -200px right -200px;
 }
 
 
@@ -92,17 +90,7 @@ height: 155px;
 
 }
 
-.orange-div{
-padding-left:36px;
-background-color:  #FA7453;
-height:546px;
-width: 340px;
-border-radius: 12px;
-top:380px;
-position:absolute;
-
-/* margin:auto; */
-}
+.orange-div{padding-left:36px;background-color:  #FA7453;height:546px;width: 340px;border-radius: 12px;top:380px;position:absolute;/* margin:auto; */}
 .premium-EQ{
     padding-top:48px;
     font-family: 'IBM Plex Sans';
@@ -224,3 +212,87 @@ padding-top:32px;
     gap:20px;
     display: flex;
 }
+
+
+@media screen and (min-width:768px) {
+
+    body{
+        background-image: url(./assets/bg-main-tablet.png), url(./assets/bg-pattern-1.svg);
+        background-repeat: no-repeat,no-repeat;
+        background-position: top -277px left -402px, top -40px right -34px;
+        text-decoration: none;
+    }
+
+    
+    
+}
+
+.extraordinary-sound{
+    font-size: 64px;
+    line-height: 64px;
+    width: 520px;
+    height: 192px;
+
+
+
+}
+
+.system-audio{
+
+font-size: 18px;
+line-height: 28px;
+width:514px;
+height:112px;
+
+}
+.equalizer-div{
+    margin-top: 111px;
+}
+
+
+
+.first-section{
+    
+background-position: top 1px right 1px;
+    
+background-image: url(./assets/bg-pattern-2.svg);
+    
+background-repeat: no-repeat;
+    
+background-position: top 0 left 45%;
+    
+width: 696px;
+    
+height:600px;
+    
+position: relative;
+
+    
+
+}
+
+
+ 
+.orange-div{
+
+background-position: top 89px right 50px;
+
+background-color:  #FA7453;
+
+border-radius: 12px;
+
+width: 399px;
+
+height:546px;
+
+position: relative;
+
+
+}
+
+
+
+
+
+
+
