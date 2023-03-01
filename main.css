@@ -6,7 +6,6 @@
     text-decoration: none;
     box-sizing:border-box;
     /* outline:solid red; */
-
 }
 
 body {
@@ -206,11 +205,24 @@ width: 270px;
 }
 
 
-.bold-text{font-family: 'IBM Plex Sans';font-style: normal;font-weight: 400;font-size: 16px;line-height: 26px;color:#191826;width: 366px;height: 105px;padding-top:32px;}
+.bold-text{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color:#191826;
+    width: 327px;
+    height: 105px;
+    padding-top:32px;
+    display:flex;
+    flex-direction:  column;
+}
 .icons-div{
     padding-top:64px;
     gap:20px;
-    /* display: flex; */
+    display: flex;
+    margin-bottom:80px;
 }
 
 
@@ -235,13 +247,9 @@ width: 270px;
 }
 
 .system-audio{
-
 font-size: 18px;
-
 line-height: 28px;
-
 width: 514px;
-
 height: 112px;
 }
 
@@ -254,19 +262,12 @@ height: 112px;
 .first-section{
     
 background-position: top 1px right 1px;
-    
 background-image: url(./assets/bg-pattern-2.svg);
-    
 background-repeat: no-repeat;
-    
 background-position: top 0 left 45%;
-    
 width: 696px;
-    
 height:600px;
-    
 position: relative;
-    
 margin: 249px auto 183px;
 }
 
@@ -281,28 +282,21 @@ margin: 249px auto 183px;
 .orange-div{
 
 background-position: top 89px right 50px;
-
 background-color:  #FA7453;
-
 border-radius: 12px;
-
 width: 399px;
-
 height:546px;
-
 position: absolute;
-
 top: 150px;
-
 right: 58px;
-
 padding-left: 50px;
 }
 
 
 .footer-div{
     margin-top:87px;
-
+    padding-bottom:85px;
+    padding-left:33px;
 }
 
 
@@ -310,28 +304,31 @@ padding-left: 50px;
 
 
 
-.bold-text-div{
+.bold-text{
 
 height: 79px;
-
 width: 366px;
 
-display: flex;
+
 }
 
 
 
 
-
-
-
-
+.text-icons-div{
+    display:flex;
+    justify-content: space-between ;
+    padding-right:39px;
+    padding-bottom:115px;
+}
 
 .icons-div{
+    gap:20px;
     display: flex;
-    /* align-items: flex-end; */
-    padding-right: 215px;
+    
 }
+
+
 
 
 }
