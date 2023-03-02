@@ -84,12 +84,20 @@ height: 155px;
 .img-mobile{
     
 height:430px;
+    
 position: absolute;
+    
 margin-bottom:48px;
+    
 bottom:100px;
+    
 width: 270px;
-left:50%;
+    
+left: 50%;
+    
 transform: translateX(-50%);
+    
+top: -130px;
 }
 
 .orange-div{padding-left: 24px;background-color:  #FA7453;height:546px;width: 375px;border-radius: 12px;top:380px;position:absolute;/* margin:auto; */}
@@ -174,7 +182,6 @@ transform: translateX(-50%);
     font-size: 18px;
     line-height: 32px;
     color:#FCFAF9;
-    /* cursor: pointer; */
     width: 296px;
     padding: 15px;
     height: 61px;
@@ -186,7 +193,6 @@ transform: translateX(-50%);
     font-weight: 700;
     font-size: 18px;
     line-height: 32px;
-    /* cursor: pointer; */
     background: #FCFAF9;
     color:#191826;
     padding:15px;
@@ -194,13 +200,6 @@ transform: translateX(-50%);
     height: 61px;
 }
 
-/* .ios-button:hover{
-    background-color:#66E2DC; 
-}
-
-.android-button:hover{
-    background-color: #FFB964;
-} */
 
 .footer-div{
 
@@ -237,34 +236,23 @@ transform: translateX(-50%);
     }
 
 
-
-
 @media screen and (min-width:768px) {
 
     body{
         background-image: url(./assets/bg-main-tablet.png), url(./assets/bg-pattern-1.svg);
         background-repeat: no-repeat,no-repeat;
-        background-position: top -277px left -402px, top -40px right -34px;
+        background-position: top -277px left -261px, top -40px right 0px;
         text-decoration: none;
     }
-
-    
-    
-
 
 .extraordinary-sound{
     font-size: 64px;
     line-height: 64px;
-    width: 520px;
-    height: 192px;
+    width: 799px;
+    height: 176px;
 }
 
-.system-audio{
-font-size: 18px;
-line-height: 28px;
-width: 514px;
-height: 112px;
-}
+.system-audio{font-size: 18px;line-height: 28px;width: 785px;height: 102px;margin-top: 5px;}
 
 .equalizer-div{
     margin-top: 111px;
@@ -273,6 +261,9 @@ height: 112px;
 .img-mobile{
     width: 270px;
     height: 556px;
+    position: absolute;
+    top: -145px;
+    left: 199px;
 }
 
 .first-section{
@@ -318,28 +309,146 @@ padding-left: 50px;
 
 .footer-div{
     margin-top:87px;
-    /* padding-bottom:85px; */
-    padding-left:33px;
+    margin-left:33px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 65px;
 }
 
 
-.text-icons-div{
+.text-icons-div {
     display:flex;
-    /* justify-content: space-between ; */
-    /* padding-right:39px; */
-    /* padding-bottom:115px; */
     flex-direction: column;
     width: 401px;
-    flex-direction: flex-end;
-    /* align-items: flex-end; */
+   
 }
 
 .icons-div{
     gap:20px;
     display: flex;
     justify-content: flex-end;
-    align-self: center;
+    margin-left: 1px;
 }
+
+
+}
+
+
+@media screen and (min-width:1440px){
+
+        
+            body{
+                background-image: url(./assets/bg-main-desktop.png), url(./assets/bg-pattern-1.svg);
+                background-repeat: no-repeat,no-repeat;
+                background-position: top -277px left -300px, top -32px right 0px;
+                text-decoration: none;
+            }
+        
+  .extraordinary-sound{
+    font-size: 88px;
+    line-height: 88px;
+    width: 860px;
+    height:176px;
+  }
+
+
+  .system-audio{
+    font-size: 20px;
+    line-height: 34px;
+    width:785px;
+    height:102px;
+    margin-top: 122px;
+  }
+
+
+.first-section{
+    margin-left:165px;
+    width: 1110px;
+    height: 600px;
+}
+
+.img-mobile{
+
+width:280px;
+height: 606px;
+position: relative;
+top: -147px;
+left: 300px;
+}
+
+.orange-div{
+    width: 446px;
+    height: 625px;
+    position: absolute;
+    top: 98px;
+    left:569px;
+    padding-left: 66px;
+}
+
+
+.ios-button{
+    cursor: pointer;
+}
+.android-button{
+    cursor: pointer;
+}
+
+.ios-button:hover{
+    background-color:#66E2DC; 
+}
+
+.android-button:hover{
+    background-color: #FFB964;
+}
+
+
+.icons-div{
+
+margin-right: 47px;
+}
+.footer-div{
+    display: flex;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.text-icons-div{
+    flex-direction: column;
+    display: flex;
+    
+}
+/* .mentor-div{
+
+    display: flex;
+    flex-direction: row;
+} */
+.footer-logo{
+    width:146px;
+    height: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
